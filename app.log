@@ -1,0 +1,1154 @@
+2024-11-02 09:22:33,356 - INFO - Loaded 'First Image' at position (960.0, 540.0)
+2024-11-02 09:22:38,295 - INFO - Loaded 'First Image' at position (960.0, 540.0)
+2024-11-02 09:24:12,778 - INFO - Loaded 'Second Image' at position (960.0, 540.0)
+2024-11-02 09:24:21,114 - INFO - Loaded 'Second Image' at position (960.0, 540.0)
+2024-11-02 09:31:24,620 - INFO - Loaded 'First Image' at position (960.0, 540.0)
+2024-11-02 09:31:29,859 - INFO - Loaded 'Second Image' at position (960.0, 540.0)
+2024-11-02 09:38:25,156 - INFO - Loaded 'First Image' at position (960.0, 540.0)
+2024-11-02 09:46:20,620 - INFO - Loaded 'First Image' at position (960.0, 540.0)
+2024-11-02 09:47:44,627 - INFO - Loaded 'First Image' at position (960.0, 540.0)
+2024-11-02 09:47:52,731 - INFO - Loaded 'Second Image' at position (960.0, 540.0)
+2024-11-02 09:52:27,834 - INFO - Default third image 'Third Image' loaded successfully.
+2024-11-02 09:52:27,834 - INFO - Active image changed to 'Third Image'.
+2024-11-02 09:53:14,178 - INFO - Loaded 'First Image' at position (960.0, 540.0)
+2024-11-02 10:12:01,935 - INFO - Image Overlay Application started.
+2024-11-02 10:12:07,310 - INFO - Application is closing.
+2024-11-02 10:12:35,751 - INFO - Image Overlay Application started.
+2024-11-02 10:12:40,087 - INFO - Application is closing.
+2024-11-02 10:14:06,916 - INFO - Created 'Btns Transp+' button.
+2024-11-02 10:14:06,917 - INFO - Created 'Btns Transp-' button.
+2024-11-02 10:14:06,917 - INFO - Created 'Toggle Transp' button.
+2024-11-02 10:14:06,917 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 10:14:06,917 - INFO - Created 'Flip Vertical' button.
+2024-11-02 10:14:06,918 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 10:14:06,918 - INFO - Created 'Zoom In' button.
+2024-11-02 10:14:06,918 - INFO - Created 'Zoom Out' button.
+2024-11-02 10:14:06,918 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 10:14:06,918 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 10:14:06,919 - INFO - Created 'Undo Move' button.
+2024-11-02 10:14:06,919 - INFO - Created 'Redo Move' button.
+2024-11-02 10:14:06,925 - INFO - Created active image selection dropdown.
+2024-11-02 10:14:06,925 - INFO - Created 'Open Ruler' button.
+2024-11-02 10:14:06,925 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 10:14:06,925 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 10:14:06,926 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 10:14:06,926 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 10:14:06,926 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 10:14:06,926 - INFO - Image Overlay Application started.
+2024-11-02 10:14:18,895 - INFO - Application is closing.
+2024-11-02 10:14:29,024 - INFO - Created 'Btns Transp+' button.
+2024-11-02 10:14:29,024 - INFO - Created 'Btns Transp-' button.
+2024-11-02 10:14:29,025 - INFO - Created 'Toggle Transp' button.
+2024-11-02 10:14:29,025 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 10:14:29,025 - INFO - Created 'Flip Vertical' button.
+2024-11-02 10:14:29,025 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 10:14:29,026 - INFO - Created 'Zoom In' button.
+2024-11-02 10:14:29,026 - INFO - Created 'Zoom Out' button.
+2024-11-02 10:14:29,026 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 10:14:29,026 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 10:14:29,027 - INFO - Created 'Undo Move' button.
+2024-11-02 10:14:29,027 - INFO - Created 'Redo Move' button.
+2024-11-02 10:14:29,032 - INFO - Created active image selection dropdown.
+2024-11-02 10:14:29,032 - INFO - Created 'Open Ruler' button.
+2024-11-02 10:14:29,032 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 10:14:29,032 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 10:14:29,032 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 10:14:29,033 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 10:14:29,033 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 10:14:29,033 - INFO - Image Overlay Application started.
+2024-11-02 10:14:45,402 - ERROR - Error in load_default_third_image: 'ButtonsWindow' object has no attribute 'update_active_image_menu'
+2024-11-02 10:15:01,773 - INFO - Application is closing.
+2024-11-02 10:15:05,114 - INFO - Created 'Btns Transp+' button.
+2024-11-02 10:15:05,114 - INFO - Created 'Btns Transp-' button.
+2024-11-02 10:15:05,115 - INFO - Created 'Toggle Transp' button.
+2024-11-02 10:15:05,115 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 10:15:05,115 - INFO - Created 'Flip Vertical' button.
+2024-11-02 10:15:05,115 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 10:15:05,116 - INFO - Created 'Zoom In' button.
+2024-11-02 10:15:05,116 - INFO - Created 'Zoom Out' button.
+2024-11-02 10:15:05,116 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 10:15:05,116 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 10:15:05,116 - INFO - Created 'Undo Move' button.
+2024-11-02 10:15:05,116 - INFO - Created 'Redo Move' button.
+2024-11-02 10:15:05,121 - INFO - Created active image selection dropdown.
+2024-11-02 10:15:05,122 - INFO - Created 'Open Ruler' button.
+2024-11-02 10:15:05,122 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 10:15:05,122 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 10:15:05,122 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 10:15:05,123 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 10:15:05,123 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 10:15:05,123 - INFO - Image Overlay Application started.
+2024-11-02 10:18:42,582 - INFO - Application is closing.
+2024-11-02 10:18:47,065 - INFO - Created 'Btns Transp+' button.
+2024-11-02 10:18:47,066 - INFO - Created 'Btns Transp-' button.
+2024-11-02 10:18:47,066 - INFO - Created 'Toggle Transp' button.
+2024-11-02 10:18:47,066 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 10:18:47,067 - INFO - Created 'Flip Vertical' button.
+2024-11-02 10:18:47,067 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 10:18:47,067 - INFO - Created 'Zoom In' button.
+2024-11-02 10:18:47,067 - INFO - Created 'Zoom Out' button.
+2024-11-02 10:18:47,068 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 10:18:47,068 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 10:18:47,068 - INFO - Created 'Undo Move' button.
+2024-11-02 10:18:47,068 - INFO - Created 'Redo Move' button.
+2024-11-02 10:18:47,073 - INFO - Created active image selection dropdown.
+2024-11-02 10:18:47,073 - INFO - Created 'Open Ruler' button.
+2024-11-02 10:18:47,074 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 10:18:47,074 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 10:18:47,074 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 10:18:47,074 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 10:18:47,075 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 10:18:47,075 - INFO - Image Overlay Application started.
+2024-11-02 10:19:02,663 - ERROR - Error in load_default_third_image: 'ButtonsWindow' object has no attribute 'update_active_image_menu'
+2024-11-02 10:19:06,196 - ERROR - Attempted to change to non-existent image 'No Images Loaded'.
+2024-11-02 10:20:18,495 - INFO - Application is closing.
+2024-11-02 10:22:12,981 - INFO - Created 'Btns Transp+' button.
+2024-11-02 10:22:12,982 - INFO - Created 'Btns Transp-' button.
+2024-11-02 10:22:12,982 - INFO - Created 'Toggle Transp' button.
+2024-11-02 10:22:12,982 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 10:22:12,983 - INFO - Created 'Flip Vertical' button.
+2024-11-02 10:22:12,983 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 10:22:12,983 - INFO - Created 'Zoom In' button.
+2024-11-02 10:22:12,983 - INFO - Created 'Zoom Out' button.
+2024-11-02 10:22:12,984 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 10:22:12,984 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 10:22:12,984 - INFO - Created 'Undo Move' button.
+2024-11-02 10:22:12,984 - INFO - Created 'Redo Move' button.
+2024-11-02 10:22:12,989 - INFO - Created active image selection dropdown.
+2024-11-02 10:22:12,989 - INFO - Created 'Open Ruler' button.
+2024-11-02 10:22:12,990 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 10:22:12,990 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 10:22:12,990 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 10:22:12,990 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 10:22:12,991 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 10:22:12,991 - INFO - Image Overlay Application started.
+2024-11-02 10:23:41,303 - INFO - Application is closing.
+2024-11-02 10:26:44,390 - INFO - Created 'Btns Transp+' button.
+2024-11-02 10:26:44,391 - INFO - Created 'Btns Transp-' button.
+2024-11-02 10:26:44,391 - INFO - Created 'Toggle Transp' button.
+2024-11-02 10:26:44,391 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 10:26:44,391 - INFO - Created 'Flip Vertical' button.
+2024-11-02 10:26:44,391 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 10:26:44,392 - INFO - Created 'Zoom In' button.
+2024-11-02 10:26:44,392 - INFO - Created 'Zoom Out' button.
+2024-11-02 10:26:44,392 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 10:26:44,392 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 10:26:44,393 - INFO - Created 'Undo Move' button.
+2024-11-02 10:26:44,393 - INFO - Created 'Redo Move' button.
+2024-11-02 10:26:44,398 - INFO - Created active image selection dropdown.
+2024-11-02 10:26:44,398 - INFO - Created 'Open Ruler' button.
+2024-11-02 10:26:44,399 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 10:26:44,399 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 10:26:44,399 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 10:26:44,399 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 10:26:44,399 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 10:26:44,400 - INFO - Image Overlay Application started.
+2024-11-02 10:27:50,428 - INFO - Application is closing.
+2024-11-02 10:30:14,028 - INFO - Created 'Btns Transp+' button.
+2024-11-02 10:30:14,028 - INFO - Created 'Btns Transp-' button.
+2024-11-02 10:30:14,028 - INFO - Created 'Toggle Transp' button.
+2024-11-02 10:30:14,029 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 10:30:14,029 - INFO - Created 'Flip Vertical' button.
+2024-11-02 10:30:14,029 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 10:30:14,029 - INFO - Created 'Zoom In' button.
+2024-11-02 10:30:14,030 - INFO - Created 'Zoom Out' button.
+2024-11-02 10:30:14,030 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 10:30:14,030 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 10:30:14,030 - INFO - Created 'Undo Move' button.
+2024-11-02 10:30:14,030 - INFO - Created 'Redo Move' button.
+2024-11-02 10:30:14,035 - INFO - Created active image selection dropdown.
+2024-11-02 10:30:14,036 - INFO - Created 'Open Ruler' button.
+2024-11-02 10:30:14,036 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 10:30:14,036 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 10:30:14,036 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 10:30:14,036 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 10:30:14,037 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 10:30:14,037 - INFO - Image Overlay Application started.
+2024-11-02 10:31:51,600 - INFO - Application is closing.
+2024-11-02 10:33:15,741 - INFO - Created 'Btns Transp+' button.
+2024-11-02 10:33:15,741 - INFO - Created 'Btns Transp-' button.
+2024-11-02 10:33:15,741 - INFO - Created 'Toggle Transp' button.
+2024-11-02 10:33:15,742 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 10:33:15,742 - INFO - Created 'Flip Vertical' button.
+2024-11-02 10:33:15,742 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 10:33:15,742 - INFO - Created 'Zoom In' button.
+2024-11-02 10:33:15,742 - INFO - Created 'Zoom Out' button.
+2024-11-02 10:33:15,743 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 10:33:15,743 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 10:33:15,743 - INFO - Created 'Undo Move' button.
+2024-11-02 10:33:15,743 - INFO - Created 'Redo Move' button.
+2024-11-02 10:33:15,749 - INFO - Created active image selection dropdown.
+2024-11-02 10:33:15,749 - INFO - Created 'Open Ruler' button.
+2024-11-02 10:33:15,749 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 10:33:15,749 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 10:33:15,749 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 10:33:15,750 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 10:33:15,750 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 10:33:15,750 - INFO - Image Overlay Application started.
+2024-11-02 10:34:11,401 - ERROR - Error in load_default_third_image: 'ButtonsWindow' object has no attribute 'update_active_image_menu'
+2024-11-02 10:34:54,758 - INFO - Application is closing.
+2024-11-02 10:42:09,200 - INFO - Created 'Btns Transp+' button.
+2024-11-02 10:42:09,200 - INFO - Created 'Btns Transp-' button.
+2024-11-02 10:42:09,201 - INFO - Created 'Toggle Transp' button.
+2024-11-02 10:42:09,201 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 10:42:09,201 - INFO - Created 'Flip Vertical' button.
+2024-11-02 10:42:09,201 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 10:42:23,633 - INFO - Created 'Btns Transp+' button.
+2024-11-02 10:42:23,633 - INFO - Created 'Btns Transp-' button.
+2024-11-02 10:42:23,633 - INFO - Created 'Toggle Transp' button.
+2024-11-02 10:42:23,633 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 10:42:23,634 - INFO - Created 'Flip Vertical' button.
+2024-11-02 10:42:23,634 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 10:44:07,284 - INFO - Created 'Btns Transp+' button.
+2024-11-02 10:44:07,285 - INFO - Created 'Btns Transp-' button.
+2024-11-02 10:44:07,285 - INFO - Created 'Toggle Transp' button.
+2024-11-02 10:44:07,285 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 10:44:07,285 - INFO - Created 'Flip Vertical' button.
+2024-11-02 10:44:07,286 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 10:44:25,123 - INFO - Created 'Btns Transp+' button.
+2024-11-02 10:44:25,123 - INFO - Created 'Btns Transp-' button.
+2024-11-02 10:44:25,123 - INFO - Created 'Toggle Transp' button.
+2024-11-02 10:44:25,124 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 10:44:25,124 - INFO - Created 'Flip Vertical' button.
+2024-11-02 10:44:25,124 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 10:45:28,003 - INFO - Created 'Btns Transp+' button.
+2024-11-02 10:45:28,004 - INFO - Created 'Btns Transp-' button.
+2024-11-02 10:45:28,004 - INFO - Created 'Toggle Transp' button.
+2024-11-02 10:45:28,004 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 10:45:28,005 - INFO - Created 'Flip Vertical' button.
+2024-11-02 10:45:28,005 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 10:45:30,680 - INFO - Created 'Btns Transp+' button.
+2024-11-02 10:45:30,680 - INFO - Created 'Btns Transp-' button.
+2024-11-02 10:45:30,681 - INFO - Created 'Toggle Transp' button.
+2024-11-02 10:45:30,681 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 10:45:30,681 - INFO - Created 'Flip Vertical' button.
+2024-11-02 10:45:30,681 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 10:46:02,940 - INFO - Created 'Btns Transp+' button.
+2024-11-02 10:46:02,940 - INFO - Created 'Btns Transp-' button.
+2024-11-02 10:46:02,940 - INFO - Created 'Toggle Transp' button.
+2024-11-02 10:46:02,940 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 10:46:02,941 - INFO - Created 'Flip Vertical' button.
+2024-11-02 10:46:02,941 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 10:46:19,173 - INFO - Created 'Btns Transp+' button.
+2024-11-02 10:46:19,173 - INFO - Created 'Btns Transp-' button.
+2024-11-02 10:46:19,174 - INFO - Created 'Toggle Transp' button.
+2024-11-02 10:46:19,174 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 10:46:19,174 - INFO - Created 'Flip Vertical' button.
+2024-11-02 10:46:19,174 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 10:48:13,268 - INFO - Created 'Btns Transp+' button.
+2024-11-02 10:48:13,269 - INFO - Created 'Btns Transp-' button.
+2024-11-02 10:48:13,269 - INFO - Created 'Toggle Transp' button.
+2024-11-02 10:48:13,269 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 10:48:13,269 - INFO - Created 'Flip Vertical' button.
+2024-11-02 10:48:13,270 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 10:48:37,042 - INFO - Created 'Btns Transp+' button.
+2024-11-02 10:48:37,042 - INFO - Created 'Btns Transp-' button.
+2024-11-02 10:48:37,042 - INFO - Created 'Toggle Transp' button.
+2024-11-02 10:48:37,043 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 10:48:37,043 - INFO - Created 'Flip Vertical' button.
+2024-11-02 10:48:37,043 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 10:48:52,769 - INFO - Created 'Btns Transp+' button.
+2024-11-02 10:48:52,770 - INFO - Created 'Btns Transp-' button.
+2024-11-02 10:48:52,770 - INFO - Created 'Toggle Transp' button.
+2024-11-02 10:48:52,770 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 10:48:52,770 - INFO - Created 'Flip Vertical' button.
+2024-11-02 10:48:52,771 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 10:49:03,253 - INFO - Created 'Btns Transp+' button.
+2024-11-02 10:49:03,254 - INFO - Created 'Btns Transp-' button.
+2024-11-02 10:49:03,254 - INFO - Created 'Toggle Transp' button.
+2024-11-02 10:49:03,254 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 10:49:03,255 - INFO - Created 'Flip Vertical' button.
+2024-11-02 10:49:03,255 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 10:57:16,162 - INFO - Created 'Btns Transp+' button.
+2024-11-02 10:57:16,162 - INFO - Created 'Btns Transp-' button.
+2024-11-02 10:57:16,162 - INFO - Created 'Toggle Transp' button.
+2024-11-02 10:57:16,162 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 10:57:16,163 - INFO - Created 'Flip Vertical' button.
+2024-11-02 10:57:16,163 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 10:57:16,163 - INFO - Created 'Zoom In' button.
+2024-11-02 10:57:16,163 - INFO - Created 'Zoom Out' button.
+2024-11-02 10:57:16,164 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 10:57:16,164 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 10:57:16,164 - INFO - Created 'Undo Move' button.
+2024-11-02 10:57:16,164 - INFO - Created 'Redo Move' button.
+2024-11-02 10:57:16,170 - INFO - Created active image selection dropdown.
+2024-11-02 10:57:16,170 - INFO - Created 'Open Ruler' button.
+2024-11-02 10:57:16,170 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 10:57:16,170 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 10:57:16,171 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 10:57:16,171 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 10:57:16,171 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 10:57:16,171 - INFO - Created 'Hide Window' button.
+2024-11-02 11:00:34,212 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:00:34,213 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:00:34,213 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:00:34,213 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:00:34,214 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:00:34,214 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:00:34,214 - INFO - Created 'Zoom In' button.
+2024-11-02 11:00:34,214 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:00:34,214 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:00:34,215 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:00:34,215 - INFO - Created 'Undo Move' button.
+2024-11-02 11:00:34,215 - INFO - Created 'Redo Move' button.
+2024-11-02 11:00:34,220 - INFO - Created active image selection dropdown.
+2024-11-02 11:00:34,221 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:00:34,221 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:00:34,221 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:00:34,221 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:00:34,222 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:00:34,222 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:00:34,222 - INFO - Created 'Hide Window' button.
+2024-11-02 11:02:38,313 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:02:38,313 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:02:38,313 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:02:38,314 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:02:38,314 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:02:38,314 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:02:38,314 - INFO - Created 'Zoom In' button.
+2024-11-02 11:02:38,315 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:02:38,315 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:02:38,315 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:02:38,315 - INFO - Created 'Undo Move' button.
+2024-11-02 11:02:38,315 - INFO - Created 'Redo Move' button.
+2024-11-02 11:02:38,320 - INFO - Created active image selection dropdown.
+2024-11-02 11:02:38,321 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:02:38,321 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:02:38,321 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:02:38,321 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:02:38,322 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:02:38,322 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:02:38,322 - INFO - Created 'Hide Window' button.
+2024-11-02 11:04:17,661 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:04:17,661 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:04:17,661 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:04:17,662 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:04:17,662 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:04:17,662 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:04:17,662 - INFO - Created 'Zoom In' button.
+2024-11-02 11:04:17,662 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:04:17,663 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:04:17,663 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:04:17,663 - INFO - Created 'Undo Move' button.
+2024-11-02 11:04:17,663 - INFO - Created 'Redo Move' button.
+2024-11-02 11:04:17,668 - INFO - Created active image selection dropdown.
+2024-11-02 11:04:17,668 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:04:17,668 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:04:17,669 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:04:17,669 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:04:17,669 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:04:17,669 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:04:17,670 - INFO - Created 'Hide Window' button.
+2024-11-02 11:05:58,006 - INFO - ImageManager initialized.
+2024-11-02 11:05:58,007 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:05:58,007 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:05:58,007 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:05:58,008 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:05:58,008 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:05:58,008 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:05:58,008 - INFO - Created 'Zoom In' button.
+2024-11-02 11:05:58,008 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:05:58,009 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:05:58,009 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:05:58,009 - INFO - Created 'Undo Move' button.
+2024-11-02 11:05:58,009 - INFO - Created 'Redo Move' button.
+2024-11-02 11:05:58,014 - INFO - Created active image selection dropdown.
+2024-11-02 11:05:58,014 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:05:58,014 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:05:58,015 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:05:58,015 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:05:58,015 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:05:58,015 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:05:58,016 - INFO - Created 'Hide Window' button.
+2024-11-02 11:07:11,613 - INFO - ImageManager initialized.
+2024-11-02 11:07:11,614 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:07:11,614 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:07:11,614 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:07:11,614 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:07:11,615 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:07:11,615 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:07:11,615 - INFO - Created 'Zoom In' button.
+2024-11-02 11:07:11,615 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:07:11,615 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:07:11,616 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:07:11,616 - INFO - Created 'Undo Move' button.
+2024-11-02 11:07:11,616 - INFO - Created 'Redo Move' button.
+2024-11-02 11:07:11,621 - INFO - Created active image selection dropdown.
+2024-11-02 11:07:11,621 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:07:11,621 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:07:11,622 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:07:11,622 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:07:11,622 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:07:11,622 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:07:11,623 - INFO - Created 'Hide Window' button.
+2024-11-02 11:07:58,026 - INFO - ImageManager initialized.
+2024-11-02 11:07:58,027 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:07:58,028 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:07:58,028 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:07:58,028 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:07:58,028 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:07:58,029 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:07:58,029 - INFO - Created 'Zoom In' button.
+2024-11-02 11:07:58,029 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:07:58,029 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:07:58,030 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:07:58,030 - INFO - Created 'Undo Move' button.
+2024-11-02 11:07:58,030 - INFO - Created 'Redo Move' button.
+2024-11-02 11:07:58,035 - INFO - Created active image selection dropdown.
+2024-11-02 11:07:58,035 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:07:58,036 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:07:58,036 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:07:58,036 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:07:58,036 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:07:58,037 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:07:58,037 - INFO - Created 'Hide Window' button.
+2024-11-02 11:07:58,037 - INFO - Image Overlay Application started.
+2024-11-02 11:07:59,637 - INFO - Mouse down at (363, 109) on canvas.
+2024-11-02 11:07:59,637 - INFO - No image clicked.
+2024-11-02 11:08:04,407 - INFO - Mouse down at (175, 148) on canvas.
+2024-11-02 11:08:04,407 - INFO - No image clicked.
+2024-11-02 11:08:07,262 - INFO - Image window closed by user.
+2024-11-02 11:08:13,691 - WARNING - 'Ruler(medium).svg' not found in c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images
+2024-11-02 11:08:20,246 - ERROR - Error opening image file 'c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Normal(medium).svg': [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\User\\AppData\\Local\\Temp\\tmp12e_klyh.png'
+2024-11-02 11:08:20,247 - ERROR - Failed to open the default image: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Normal(medium).svg
+2024-11-02 11:08:31,280 - INFO - Application is closing.
+2024-11-02 11:08:58,019 - INFO - ImageManager initialized.
+2024-11-02 11:08:58,021 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:08:58,021 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:08:58,021 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:08:58,021 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:08:58,022 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:08:58,022 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:08:58,022 - INFO - Created 'Zoom In' button.
+2024-11-02 11:08:58,022 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:08:58,022 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:08:58,023 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:08:58,023 - INFO - Created 'Undo Move' button.
+2024-11-02 11:08:58,023 - INFO - Created 'Redo Move' button.
+2024-11-02 11:08:58,028 - INFO - Created active image selection dropdown.
+2024-11-02 11:08:58,028 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:08:58,028 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:08:58,029 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:08:58,029 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:08:58,029 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:08:58,029 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:08:58,030 - INFO - Created 'Hide Window' button.
+2024-11-02 11:08:58,030 - INFO - Image Overlay Application started.
+2024-11-02 11:08:59,294 - INFO - Mouse down at (290, 69) on canvas.
+2024-11-02 11:08:59,295 - INFO - No image clicked.
+2024-11-02 11:09:01,707 - ERROR - Error opening image file 'c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Normal(medium).svg': [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\User\\AppData\\Local\\Temp\\tmpzt96oafd.png'
+2024-11-02 11:09:01,707 - ERROR - Failed to open the default image: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Normal(medium).svg
+2024-11-02 11:09:04,289 - ERROR - Error opening image file 'c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\NarrowTapered(medium).svg': [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\User\\AppData\\Local\\Temp\\tmp0xm4lp_g.png'
+2024-11-02 11:09:04,290 - ERROR - Failed to open the default image: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\NarrowTapered(medium).svg
+2024-11-02 11:09:06,111 - ERROR - Error opening image file 'c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\NarrowOvoide(medium).svg': [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\User\\AppData\\Local\\Temp\\tmp83sz1g8p.png'
+2024-11-02 11:09:06,112 - ERROR - Failed to open the default image: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\NarrowOvoide(medium).svg
+2024-11-02 11:09:10,260 - INFO - Image window hidden.
+2024-11-02 11:09:10,790 - INFO - Image window shown.
+2024-11-02 11:09:11,348 - INFO - Image window hidden.
+2024-11-02 11:09:12,867 - INFO - Image window shown.
+2024-11-02 11:09:13,845 - INFO - Image window hidden.
+2024-11-02 11:09:15,119 - ERROR - Error opening image file 'c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\NarrowOvoide(medium).svg': [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\User\\AppData\\Local\\Temp\\tmp_2l0xlxc.png'
+2024-11-02 11:09:15,120 - ERROR - Failed to open the default image: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\NarrowOvoide(medium).svg
+2024-11-02 11:09:19,910 - INFO - Image window shown.
+2024-11-02 11:09:20,491 - INFO - Mouse down at (211, 154) on canvas.
+2024-11-02 11:09:20,491 - INFO - No image clicked.
+2024-11-02 11:09:22,847 - INFO - Mouse down at (212, 129) on canvas.
+2024-11-02 11:09:22,847 - INFO - No image clicked.
+2024-11-02 11:09:23,631 - INFO - Mouse down at (228, 194) on canvas.
+2024-11-02 11:09:23,632 - INFO - No image clicked.
+2024-11-02 11:09:23,782 - INFO - Mouse down at (228, 194) on canvas.
+2024-11-02 11:09:23,782 - INFO - No image clicked.
+2024-11-02 11:09:24,315 - INFO - Mouse down at (238, 78) on canvas.
+2024-11-02 11:09:24,315 - INFO - No image clicked.
+2024-11-02 11:09:25,054 - INFO - Image window closed by user.
+2024-11-02 11:09:26,599 - INFO - Image window shown.
+2024-11-02 11:09:26,768 - INFO - Image window hidden.
+2024-11-02 11:09:26,959 - INFO - Image window shown.
+2024-11-02 11:09:27,189 - INFO - Image window hidden.
+2024-11-02 11:09:35,003 - WARNING - 'Ruler(medium).svg' not found in c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images
+2024-11-02 11:09:39,325 - ERROR - Error opening image file 'c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Ovoide(medium).svg': [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\User\\AppData\\Local\\Temp\\tmp2j_qjg66.png'
+2024-11-02 11:09:39,326 - ERROR - Failed to open the default image: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Ovoide(medium).svg
+2024-11-02 11:10:02,341 - INFO - Application is closing.
+2024-11-02 11:13:22,462 - INFO - ImageManager initialized.
+2024-11-02 11:13:22,463 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:13:22,463 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:13:22,464 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:13:22,464 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:13:22,464 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:13:22,464 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:13:22,465 - INFO - Created 'Zoom In' button.
+2024-11-02 11:13:22,465 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:13:22,465 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:13:22,465 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:13:22,466 - INFO - Created 'Undo Move' button.
+2024-11-02 11:13:22,466 - INFO - Created 'Redo Move' button.
+2024-11-02 11:13:22,471 - INFO - Created active image selection dropdown.
+2024-11-02 11:13:22,471 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:13:22,471 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:13:22,472 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:13:22,472 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:13:22,472 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:13:22,472 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:13:22,473 - INFO - Created 'Hide Window' button.
+2024-11-02 11:13:22,473 - INFO - Image Overlay Application started.
+2024-11-02 11:13:30,814 - INFO - Image window hidden.
+2024-11-02 11:13:31,681 - INFO - Image window shown.
+2024-11-02 11:13:32,269 - INFO - Image window hidden.
+2024-11-02 11:13:32,468 - INFO - Image window shown.
+2024-11-02 11:13:33,012 - INFO - Image window hidden.
+2024-11-02 11:13:43,399 - INFO - ImageManager initialized.
+2024-11-02 11:13:43,401 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:13:43,401 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:13:43,401 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:13:43,401 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:13:43,401 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:13:43,402 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:13:43,402 - INFO - Created 'Zoom In' button.
+2024-11-02 11:13:43,402 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:13:43,402 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:13:43,402 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:13:43,403 - INFO - Created 'Undo Move' button.
+2024-11-02 11:13:43,403 - INFO - Created 'Redo Move' button.
+2024-11-02 11:13:43,408 - INFO - Created active image selection dropdown.
+2024-11-02 11:13:43,409 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:13:43,409 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:13:43,409 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:13:43,409 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:13:43,410 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:13:43,410 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:13:43,410 - INFO - Created 'Hide Window' button.
+2024-11-02 11:13:43,410 - INFO - Image Overlay Application started.
+2024-11-02 11:14:29,684 - INFO - Application is closing.
+2024-11-02 11:14:55,497 - INFO - ImageManager initialized.
+2024-11-02 11:14:55,498 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:14:55,498 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:14:55,498 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:14:55,499 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:14:55,499 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:14:55,499 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:14:55,499 - INFO - Created 'Zoom In' button.
+2024-11-02 11:14:55,500 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:14:55,500 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:14:55,500 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:14:55,500 - INFO - Created 'Undo Move' button.
+2024-11-02 11:14:55,500 - INFO - Created 'Redo Move' button.
+2024-11-02 11:14:55,505 - INFO - Created active image selection dropdown.
+2024-11-02 11:14:55,505 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:14:55,506 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:14:55,506 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:14:55,506 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:14:55,506 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:14:55,506 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:14:55,507 - INFO - Created 'Hide Window' button.
+2024-11-02 11:14:55,507 - INFO - Image Overlay Application started.
+2024-11-02 11:14:57,123 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Tapered(medium).svg
+2024-11-02 11:14:57,212 - INFO - Default image 'Tapered' loaded successfully.
+2024-11-02 11:14:57,212 - INFO - Active image changed to 'Tapered'.
+2024-11-02 11:15:01,472 - INFO - Mouse down at (305, 100) on canvas.
+2024-11-02 11:15:01,472 - INFO - Image 'Tapered' selected.
+2024-11-02 11:15:01,841 - INFO - Image 'Tapered' moved to (0, 0).
+2024-11-02 11:15:01,927 - INFO - Mouse down at (352, 221) on canvas.
+2024-11-02 11:15:01,928 - INFO - Image 'Tapered' selected.
+2024-11-02 11:15:02,337 - INFO - Image 'Tapered' moved to (0, 0).
+2024-11-02 11:15:02,864 - INFO - Mouse down at (354, 250) on canvas.
+2024-11-02 11:15:02,865 - INFO - Image 'Tapered' selected.
+2024-11-02 11:15:03,048 - INFO - Image 'Tapered' moved to (0, 0).
+2024-11-02 11:15:03,059 - INFO - Mouse down at (354, 250) on canvas.
+2024-11-02 11:15:03,059 - INFO - Image 'Tapered' selected.
+2024-11-02 11:15:03,232 - INFO - Image 'Tapered' moved to (0, 0).
+2024-11-02 11:15:10,324 - INFO - Image window closed by user.
+2024-11-02 11:15:30,220 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\NarrowOvoide(medium).svg
+2024-11-02 11:15:30,346 - INFO - Image window shown.
+2024-11-02 11:15:30,346 - INFO - Default image 'NarrowOvoide' loaded successfully.
+2024-11-02 11:15:30,346 - INFO - Active image changed to 'NarrowOvoide'.
+2024-11-02 11:15:32,473 - INFO - Image window closed by user.
+2024-11-02 11:16:01,157 - INFO - Application is closing.
+2024-11-02 11:19:49,532 - INFO - ImageManager initialized.
+2024-11-02 11:19:49,534 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:19:49,534 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:19:49,534 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:19:49,534 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:19:49,534 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:19:49,535 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:19:49,535 - INFO - Created 'Zoom In' button.
+2024-11-02 11:19:49,535 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:19:49,535 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:19:49,535 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:19:49,536 - INFO - Created 'Undo Move' button.
+2024-11-02 11:19:49,536 - INFO - Created 'Redo Move' button.
+2024-11-02 11:19:49,541 - INFO - Created active image selection dropdown.
+2024-11-02 11:19:49,541 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:19:49,541 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:19:49,541 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:19:49,542 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:19:49,542 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:19:49,542 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:19:49,542 - INFO - Created 'Hide Window' button.
+2024-11-02 11:19:49,543 - INFO - Image Overlay Application started.
+2024-11-02 11:19:53,591 - WARNING - 'Ruler(medium).svg' not found in c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images
+2024-11-02 11:19:59,300 - INFO - Image window hidden.
+2024-11-02 11:19:59,793 - INFO - Image window shown.
+2024-11-02 11:20:00,679 - INFO - Image window hidden.
+2024-11-02 11:20:00,880 - INFO - Image window shown.
+2024-11-02 11:20:01,354 - INFO - Image window hidden.
+2024-11-02 11:22:08,976 - INFO - Application is closing.
+2024-11-02 11:35:22,902 - INFO - ImageManager initialized.
+2024-11-02 11:35:22,903 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:35:22,903 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:35:22,903 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:35:22,903 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:35:22,904 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:35:22,904 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:35:22,904 - INFO - Created 'Zoom In' button.
+2024-11-02 11:35:22,904 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:35:22,905 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:35:22,905 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:35:22,905 - INFO - Created 'Undo Move' button.
+2024-11-02 11:35:22,905 - INFO - Created 'Redo Move' button.
+2024-11-02 11:35:22,910 - INFO - Created active image selection dropdown.
+2024-11-02 11:35:22,911 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:35:22,911 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:35:22,911 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:35:22,912 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:35:22,912 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:35:22,912 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:35:22,912 - INFO - Created 'Hide Window' button.
+2024-11-02 11:35:22,915 - INFO - Image window set to click-through.
+2024-11-02 11:36:44,341 - INFO - ImageManager initialized.
+2024-11-02 11:36:44,342 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:36:44,343 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:36:44,343 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:36:44,343 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:36:44,343 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:36:44,344 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:36:44,344 - INFO - Created 'Zoom In' button.
+2024-11-02 11:36:44,344 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:36:44,344 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:36:44,344 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:36:44,345 - INFO - Created 'Undo Move' button.
+2024-11-02 11:36:44,345 - INFO - Created 'Redo Move' button.
+2024-11-02 11:36:44,350 - INFO - Created active image selection dropdown.
+2024-11-02 11:36:44,350 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:36:44,350 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:36:44,350 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:36:44,351 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:36:44,351 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:36:44,351 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:36:44,351 - INFO - Created 'Hide Window' button.
+2024-11-02 11:36:44,354 - INFO - Image window set to click-through.
+2024-11-02 11:36:54,314 - INFO - ImageManager initialized.
+2024-11-02 11:36:54,316 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:36:54,316 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:36:54,316 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:36:54,316 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:36:54,317 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:36:54,317 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:36:54,317 - INFO - Created 'Zoom In' button.
+2024-11-02 11:36:54,317 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:36:54,317 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:36:54,318 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:36:54,318 - INFO - Created 'Undo Move' button.
+2024-11-02 11:36:54,318 - INFO - Created 'Redo Move' button.
+2024-11-02 11:36:54,323 - INFO - Created active image selection dropdown.
+2024-11-02 11:36:54,323 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:36:54,324 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:36:54,324 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:36:54,324 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:36:54,324 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:36:54,325 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:36:54,325 - INFO - Created 'Hide Window' button.
+2024-11-02 11:36:54,327 - INFO - Image window set to click-through.
+2024-11-02 11:38:21,189 - INFO - ImageManager initialized.
+2024-11-02 11:38:21,190 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:38:21,191 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:38:21,191 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:38:21,191 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:38:21,191 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:38:21,191 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:38:21,192 - INFO - Created 'Zoom In' button.
+2024-11-02 11:38:21,192 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:38:21,192 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:38:21,192 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:38:21,192 - INFO - Created 'Undo Move' button.
+2024-11-02 11:38:21,192 - INFO - Created 'Redo Move' button.
+2024-11-02 11:38:21,197 - INFO - Created active image selection dropdown.
+2024-11-02 11:38:21,198 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:38:21,198 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:38:21,198 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:38:21,198 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:38:21,198 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:38:21,198 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:38:21,199 - INFO - Created 'Hide Window' button.
+2024-11-02 11:38:21,201 - INFO - Image window set to click-through.
+2024-11-02 11:39:18,391 - INFO - ImageManager initialized.
+2024-11-02 11:40:09,210 - INFO - ImageManager initialized.
+2024-11-02 11:42:46,887 - INFO - ImageManager initialized.
+2024-11-02 11:42:46,888 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:42:46,888 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:42:46,888 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:42:46,889 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:42:46,889 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:42:46,889 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:42:46,889 - INFO - Created 'Zoom In' button.
+2024-11-02 11:42:46,889 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:42:46,890 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:42:46,890 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:42:46,890 - INFO - Created 'Undo Move' button.
+2024-11-02 11:42:46,890 - INFO - Created 'Redo Move' button.
+2024-11-02 11:42:46,896 - INFO - Created active image selection dropdown.
+2024-11-02 11:42:46,896 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:42:46,896 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:42:46,896 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:42:46,897 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:42:46,897 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:42:46,897 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:42:46,897 - INFO - Created 'Hide Window' button.
+2024-11-02 11:42:46,900 - INFO - Image window set to click-through.
+2024-11-02 11:42:46,900 - INFO - Image Overlay Application started.
+2024-11-02 11:42:52,479 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Tapered(medium).svg
+2024-11-02 11:42:52,571 - INFO - Default image 'Tapered' loaded successfully.
+2024-11-02 11:42:52,571 - INFO - Active image changed to 'Tapered'.
+2024-11-02 11:42:54,552 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\NarrowTapered(medium).svg
+2024-11-02 11:42:54,678 - INFO - Default image 'NarrowTappered' loaded successfully.
+2024-11-02 11:42:54,678 - INFO - Active image changed to 'NarrowTappered'.
+2024-11-02 11:42:55,212 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\NarrowOvoide(medium).svg
+2024-11-02 11:42:55,390 - INFO - Default image 'NarrowOvoide' loaded successfully.
+2024-11-02 11:42:55,390 - INFO - Active image changed to 'NarrowOvoide'.
+2024-11-02 11:42:56,740 - INFO - Image window hidden.
+2024-11-02 11:42:59,171 - INFO - Image window shown.
+2024-11-02 11:43:03,647 - INFO - Application is closing.
+2024-11-02 11:43:40,272 - INFO - ImageManager initialized.
+2024-11-02 11:43:40,273 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:43:40,274 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:43:40,274 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:43:40,274 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:43:40,274 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:43:40,275 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:43:40,275 - INFO - Created 'Zoom In' button.
+2024-11-02 11:43:40,275 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:43:40,275 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:43:40,276 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:43:40,276 - INFO - Created 'Undo Move' button.
+2024-11-02 11:43:40,276 - INFO - Created 'Redo Move' button.
+2024-11-02 11:43:40,281 - INFO - Created active image selection dropdown.
+2024-11-02 11:43:40,282 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:43:40,282 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:43:40,282 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:43:40,282 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:43:40,283 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:43:40,283 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:43:40,283 - INFO - Created 'Hide Window' button.
+2024-11-02 11:43:40,286 - INFO - Image window set to click-through.
+2024-11-02 11:43:40,286 - INFO - Image Overlay Application started.
+2024-11-02 11:43:44,391 - WARNING - 'Ruler(medium).svg' not found in c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images
+2024-11-02 11:43:49,622 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Tapered(medium).svg
+2024-11-02 11:43:49,696 - INFO - Default image 'Tapered' loaded successfully.
+2024-11-02 11:43:49,696 - INFO - Active image changed to 'Tapered'.
+2024-11-02 11:43:57,861 - INFO - Rotation point mode enabled.
+2024-11-02 11:44:01,761 - INFO - Rotation point mode disabled and rotation point reset.
+2024-11-02 11:44:02,915 - INFO - Application is closing.
+2024-11-02 11:44:14,777 - INFO - ImageManager initialized.
+2024-11-02 11:44:14,778 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:44:14,779 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:44:14,779 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:44:14,779 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:44:14,779 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:44:14,780 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:44:14,780 - INFO - Created 'Zoom In' button.
+2024-11-02 11:44:14,780 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:44:14,780 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:44:14,781 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:44:14,781 - INFO - Created 'Undo Move' button.
+2024-11-02 11:44:14,781 - INFO - Created 'Redo Move' button.
+2024-11-02 11:44:14,787 - INFO - Created active image selection dropdown.
+2024-11-02 11:44:14,787 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:44:14,787 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:44:14,788 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:44:14,788 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:44:14,788 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:44:14,788 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:44:14,788 - INFO - Created 'Hide Window' button.
+2024-11-02 11:44:14,791 - INFO - Image window set to click-through.
+2024-11-02 11:44:14,791 - INFO - Image Overlay Application started.
+2024-11-02 11:44:17,936 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\NarrowOvoide(medium).svg
+2024-11-02 11:44:18,004 - INFO - Default image 'NarrowOvoide' loaded successfully.
+2024-11-02 11:44:18,004 - INFO - Active image changed to 'NarrowOvoide'.
+2024-11-02 11:44:18,913 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\NarrowTapered(medium).svg
+2024-11-02 11:44:19,036 - INFO - Default image 'NarrowTappered' loaded successfully.
+2024-11-02 11:44:19,036 - INFO - Active image changed to 'NarrowTappered'.
+2024-11-02 11:44:19,724 - INFO - Image window hidden.
+2024-11-02 11:44:22,245 - INFO - Image window shown.
+2024-11-02 11:44:22,762 - INFO - Image window hidden.
+2024-11-02 11:44:22,965 - INFO - Image window shown.
+2024-11-02 11:44:23,398 - INFO - Image window hidden.
+2024-11-02 11:44:24,045 - INFO - Image window shown.
+2024-11-02 11:44:24,388 - INFO - Image window hidden.
+2024-11-02 11:46:27,993 - INFO - Application is closing.
+2024-11-02 11:46:33,092 - INFO - ImageManager initialized.
+2024-11-02 11:46:33,093 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:46:33,094 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:46:33,094 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:46:33,094 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:46:33,094 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:46:33,094 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:46:33,095 - INFO - Created 'Zoom In' button.
+2024-11-02 11:46:33,095 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:46:33,095 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:46:33,095 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:46:33,095 - INFO - Created 'Undo Move' button.
+2024-11-02 11:46:33,095 - INFO - Created 'Redo Move' button.
+2024-11-02 11:46:33,100 - INFO - Created active image selection dropdown.
+2024-11-02 11:46:33,101 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:46:33,101 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:46:33,101 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:46:33,101 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:46:33,101 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:46:33,101 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:46:33,102 - INFO - Created 'Hide Window' button.
+2024-11-02 11:46:33,102 - INFO - Image window initialized and configured.
+2024-11-02 11:46:33,102 - INFO - Image Overlay Application started.
+2024-11-02 11:46:33,141 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:46:33,141 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:46:42,576 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Tapered(medium).svg
+2024-11-02 11:46:42,648 - INFO - Default image 'Tapered' loaded successfully.
+2024-11-02 11:46:42,648 - INFO - Active image changed to 'Tapered'.
+2024-11-02 11:46:43,655 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Tapered(medium).svg
+2024-11-02 11:46:43,722 - INFO - Default image 'Tapered' loaded successfully.
+2024-11-02 11:46:43,722 - INFO - Active image changed to 'Tapered'.
+2024-11-02 11:46:46,818 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:46:46,818 - INFO - Mouse down at (521, 256) on canvas.
+2024-11-02 11:46:46,818 - INFO - Image 'Tapered' selected.
+2024-11-02 11:46:51,563 - INFO - Mouse down at (1151, 166) on canvas.
+2024-11-02 11:46:51,563 - INFO - Image 'Tapered' selected.
+2024-11-02 11:47:02,841 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\NarrowTapered(medium).svg
+2024-11-02 11:47:02,982 - INFO - Default image 'NarrowTappered' loaded successfully.
+2024-11-02 11:47:02,982 - INFO - Active image changed to 'NarrowTappered'.
+2024-11-02 11:47:03,358 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\NarrowTapered(medium).svg
+2024-11-02 11:47:03,500 - INFO - Default image 'NarrowTappered' loaded successfully.
+2024-11-02 11:47:03,500 - INFO - Active image changed to 'NarrowTappered'.
+2024-11-02 11:47:05,701 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:47:05,702 - INFO - Mouse down at (484, 281) on canvas.
+2024-11-02 11:47:05,702 - INFO - Image 'Tapered' selected.
+2024-11-02 11:47:46,523 - INFO - Image window hidden.
+2024-11-02 11:47:46,756 - INFO - Image window shown.
+2024-11-02 11:47:46,904 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:47:47,057 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:47:47,542 - WARNING - 'Ruler(medium).svg' not found in c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images
+2024-11-02 11:47:49,477 - INFO - Image window hidden.
+2024-11-02 11:47:49,988 - INFO - Image window shown.
+2024-11-02 11:47:50,136 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:47:50,285 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:47:50,452 - INFO - Image window hidden.
+2024-11-02 11:47:51,264 - INFO - Image window shown.
+2024-11-02 11:47:51,420 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:47:51,577 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:47:53,205 - INFO - Image window hidden.
+2024-11-02 11:47:53,461 - INFO - Image window shown.
+2024-11-02 11:47:53,609 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:47:53,755 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:47:56,476 - INFO - Image window hidden.
+2024-11-02 11:47:56,679 - INFO - Image window shown.
+2024-11-02 11:47:56,826 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:47:56,973 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:47:57,660 - INFO - Image window hidden.
+2024-11-02 11:47:58,380 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Tapered(medium).svg
+2024-11-02 11:47:58,507 - INFO - Image window shown.
+2024-11-02 11:47:58,507 - INFO - Default image 'Tapered' loaded successfully.
+2024-11-02 11:47:58,507 - INFO - Active image changed to 'Tapered'.
+2024-11-02 11:47:58,774 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:47:58,922 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:48:03,617 - INFO - Mouse down at (581, 410) on canvas.
+2024-11-02 11:48:03,618 - INFO - Image 'Tapered' selected.
+2024-11-02 11:48:04,320 - INFO - Mouse down at (581, 410) on canvas.
+2024-11-02 11:48:04,320 - INFO - Image 'Tapered' selected.
+2024-11-02 11:48:04,484 - INFO - Mouse down at (581, 410) on canvas.
+2024-11-02 11:48:04,485 - INFO - Image 'Tapered' selected.
+2024-11-02 11:48:04,709 - INFO - Mouse down at (581, 410) on canvas.
+2024-11-02 11:48:04,710 - INFO - Image 'Tapered' selected.
+2024-11-02 11:48:05,438 - INFO - Mouse down at (581, 410) on canvas.
+2024-11-02 11:48:05,438 - INFO - Image 'Tapered' selected.
+2024-11-02 11:48:07,792 - INFO - Mouse down at (542, 522) on canvas.
+2024-11-02 11:48:07,793 - INFO - Image 'Tapered' selected.
+2024-11-02 11:48:07,927 - INFO - Mouse down at (542, 522) on canvas.
+2024-11-02 11:48:07,927 - INFO - Image 'Tapered' selected.
+2024-11-02 11:48:08,737 - INFO - Mouse down at (542, 522) on canvas.
+2024-11-02 11:48:08,738 - INFO - Image 'Tapered' selected.
+2024-11-02 11:48:08,924 - INFO - Mouse down at (542, 522) on canvas.
+2024-11-02 11:48:08,925 - INFO - Image 'Tapered' selected.
+2024-11-02 11:48:09,112 - INFO - Mouse down at (542, 522) on canvas.
+2024-11-02 11:48:09,112 - INFO - Image 'Tapered' selected.
+2024-11-02 11:48:09,314 - INFO - Mouse down at (542, 522) on canvas.
+2024-11-02 11:48:09,314 - INFO - Image 'Tapered' selected.
+2024-11-02 11:49:49,251 - INFO - Image window hidden.
+2024-11-02 11:51:35,408 - INFO - ImageManager initialized.
+2024-11-02 11:51:35,410 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:51:35,410 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:51:35,410 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:51:35,410 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:51:35,410 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:51:35,411 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:51:35,411 - INFO - Created 'Zoom In' button.
+2024-11-02 11:51:35,411 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:51:35,411 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:51:35,411 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:51:35,411 - INFO - Created 'Undo Move' button.
+2024-11-02 11:51:35,412 - INFO - Created 'Redo Move' button.
+2024-11-02 11:51:35,417 - INFO - Created active image selection dropdown.
+2024-11-02 11:51:35,417 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:51:35,417 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:51:35,417 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:51:35,417 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:51:35,418 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:51:35,418 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:51:35,418 - INFO - Created 'Hide Window' button.
+2024-11-02 11:51:35,418 - INFO - Image window initialized and configured.
+2024-11-02 11:51:35,419 - INFO - Image Overlay Application started.
+2024-11-02 11:51:35,458 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:51:35,460 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:51:37,512 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Normal(medium).svg
+2024-11-02 11:51:37,584 - INFO - Default image 'Normal' loaded successfully.
+2024-11-02 11:51:37,584 - INFO - Active image changed to 'Normal'.
+2024-11-02 11:51:40,952 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:51:40,953 - INFO - Mouse down at (482, 518) on canvas.
+2024-11-02 11:51:40,953 - INFO - Image 'Normal' selected.
+2024-11-02 11:51:54,193 - INFO - Mouse down at (957, 284) on canvas.
+2024-11-02 11:51:54,193 - INFO - Image 'Normal' selected.
+2024-11-02 11:51:55,277 - INFO - Mouse down at (957, 317) on canvas.
+2024-11-02 11:51:55,278 - INFO - Image 'Normal' selected.
+2024-11-02 11:51:58,097 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Ruler(medium).svg
+2024-11-02 11:51:58,190 - INFO - Default image 'Ruler' loaded successfully.
+2024-11-02 11:51:58,190 - INFO - Active image changed to 'Ruler'.
+2024-11-02 11:52:03,026 - INFO - Image window hidden.
+2024-11-02 11:52:03,483 - INFO - Image window shown.
+2024-11-02 11:52:03,560 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:52:03,638 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:52:22,534 - INFO - Application is closing.
+2024-11-02 11:53:03,691 - INFO - ImageManager initialized.
+2024-11-02 11:53:03,692 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:53:03,693 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:53:03,693 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:53:03,693 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:53:03,693 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:53:03,693 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:53:03,694 - INFO - Created 'Zoom In' button.
+2024-11-02 11:53:03,694 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:53:03,694 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:53:03,694 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:53:03,695 - INFO - Created 'Undo Move' button.
+2024-11-02 11:53:03,695 - INFO - Created 'Redo Move' button.
+2024-11-02 11:53:03,700 - INFO - Created active image selection dropdown.
+2024-11-02 11:53:03,700 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:53:03,700 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:53:03,701 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:53:03,701 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:53:03,701 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:53:03,701 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:53:03,702 - INFO - Created 'Hide Window' button.
+2024-11-02 11:53:03,702 - INFO - Image window initialized and configured.
+2024-11-02 11:53:03,702 - INFO - Image Overlay Application started.
+2024-11-02 11:53:03,739 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:53:03,740 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:53:07,075 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Tapered(medium).svg
+2024-11-02 11:53:07,148 - INFO - Default image 'Tapered' loaded successfully.
+2024-11-02 11:53:07,149 - INFO - Active image changed to 'Tapered'.
+2024-11-02 11:53:10,297 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:53:10,297 - INFO - Mouse down at (547, 506) on canvas.
+2024-11-02 11:53:10,298 - INFO - Image 'Tapered' selected.
+2024-11-02 11:54:49,914 - INFO - Application is closing.
+2024-11-02 11:54:50,411 - INFO - ImageManager initialized.
+2024-11-02 11:54:50,412 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:54:50,413 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:54:50,413 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:54:50,413 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:54:50,413 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:54:50,414 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:54:50,414 - INFO - Created 'Zoom In' button.
+2024-11-02 11:54:50,414 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:54:50,414 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:54:50,414 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:54:50,415 - INFO - Created 'Undo Move' button.
+2024-11-02 11:54:50,415 - INFO - Created 'Redo Move' button.
+2024-11-02 11:54:50,420 - INFO - Created active image selection dropdown.
+2024-11-02 11:54:50,421 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:54:50,421 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:54:50,421 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:54:50,422 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:54:50,422 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:54:50,422 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:54:50,422 - INFO - Created 'Hide Window' button.
+2024-11-02 11:54:50,423 - INFO - Image window initialized and configured.
+2024-11-02 11:54:50,423 - INFO - Image Overlay Application started.
+2024-11-02 11:54:50,463 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:54:50,464 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:54:52,110 - INFO - Application is closing.
+2024-11-02 11:56:33,206 - INFO - ImageManager initialized.
+2024-11-02 11:56:33,207 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:56:33,207 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:56:33,207 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:56:33,208 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:56:33,208 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:56:33,208 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:56:33,208 - INFO - Created 'Zoom In' button.
+2024-11-02 11:56:33,208 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:56:33,209 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:56:33,209 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:56:33,209 - INFO - Created 'Undo Move' button.
+2024-11-02 11:56:33,209 - INFO - Created 'Redo Move' button.
+2024-11-02 11:56:33,214 - INFO - Created active image selection dropdown.
+2024-11-02 11:56:33,215 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:56:33,215 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:56:33,215 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:56:33,215 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:56:33,216 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:56:33,216 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:56:33,216 - INFO - Created 'Hide Window' button.
+2024-11-02 11:56:33,216 - INFO - Image window initialized and configured.
+2024-11-02 11:56:33,217 - INFO - Image Overlay Application started.
+2024-11-02 11:56:33,251 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:56:33,252 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:56:35,163 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Tapered(medium).svg
+2024-11-02 11:56:35,236 - INFO - Default image 'Tapered' loaded successfully.
+2024-11-02 11:56:35,236 - INFO - Active image changed to 'Tapered'.
+2024-11-02 11:56:37,018 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Tapered(medium).svg
+2024-11-02 11:56:37,086 - INFO - Default image 'Tapered' loaded successfully.
+2024-11-02 11:56:37,086 - INFO - Active image changed to 'Tapered'.
+2024-11-02 11:56:37,724 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Tapered(medium).svg
+2024-11-02 11:56:37,793 - INFO - Default image 'Tapered' loaded successfully.
+2024-11-02 11:56:37,793 - INFO - Active image changed to 'Tapered'.
+2024-11-02 11:56:40,020 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:56:40,021 - INFO - Mouse down at (548, 530) on canvas.
+2024-11-02 11:56:40,021 - INFO - Image 'Tapered' selected.
+2024-11-02 11:56:52,678 - INFO - Mouse down at (613, 334) on canvas.
+2024-11-02 11:56:52,678 - INFO - Image 'Tapered' selected.
+2024-11-02 11:56:59,024 - INFO - Application is closing.
+2024-11-02 11:59:20,279 - INFO - ImageManager initialized.
+2024-11-02 11:59:20,280 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:59:20,281 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:59:20,281 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:59:20,281 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:59:20,281 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:59:20,282 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:59:20,282 - INFO - Created 'Zoom In' button.
+2024-11-02 11:59:20,282 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:59:20,282 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:59:20,282 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:59:20,283 - INFO - Created 'Undo Move' button.
+2024-11-02 11:59:20,283 - INFO - Created 'Redo Move' button.
+2024-11-02 11:59:20,288 - INFO - Created active image selection dropdown.
+2024-11-02 11:59:20,288 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:59:20,288 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:59:20,288 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:59:20,289 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:59:20,289 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:59:20,289 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:59:20,289 - INFO - Created 'Hide Window' button.
+2024-11-02 11:59:20,290 - INFO - Image window initialized and configured.
+2024-11-02 11:59:20,290 - INFO - Image Overlay Application started.
+2024-11-02 11:59:20,327 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:59:20,328 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:59:22,492 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Normal(medium).svg
+2024-11-02 11:59:22,519 - INFO - Resized default image to (800, 450) for optimal performance.
+2024-11-02 11:59:22,520 - INFO - Loaded default image 'Normal' at position (960.0, 540.0)
+2024-11-02 11:59:22,566 - INFO - Default image 'Normal' loaded successfully.
+2024-11-02 11:59:22,566 - INFO - Active image changed to 'Normal'.
+2024-11-02 11:59:26,632 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Ovoide(medium).svg
+2024-11-02 11:59:26,662 - INFO - Resized default image to (800, 450) for optimal performance.
+2024-11-02 11:59:26,662 - INFO - Loaded default image 'Ovoide' at position (960.0, 540.0)
+2024-11-02 11:59:26,728 - INFO - Default image 'Ovoide' loaded successfully.
+2024-11-02 11:59:26,728 - INFO - Active image changed to 'Ovoide'.
+2024-11-02 11:59:27,201 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Tapered(medium).svg
+2024-11-02 11:59:27,228 - INFO - Resized default image to (800, 450) for optimal performance.
+2024-11-02 11:59:27,229 - INFO - Loaded default image 'Tapered' at position (960.0, 540.0)
+2024-11-02 11:59:27,333 - INFO - Default image 'Tapered' loaded successfully.
+2024-11-02 11:59:27,333 - INFO - Active image changed to 'Tapered'.
+2024-11-02 11:59:33,987 - INFO - Application is closing.
+2024-11-02 11:59:52,453 - INFO - ImageManager initialized.
+2024-11-02 11:59:52,455 - INFO - Created 'Btns Transp+' button.
+2024-11-02 11:59:52,455 - INFO - Created 'Btns Transp-' button.
+2024-11-02 11:59:52,455 - INFO - Created 'Toggle Transp' button.
+2024-11-02 11:59:52,455 - INFO - Created 'Flip Horizontal' button.
+2024-11-02 11:59:52,456 - INFO - Created 'Flip Vertical' button.
+2024-11-02 11:59:52,456 - INFO - Created 'Set Rot Pt' button.
+2024-11-02 11:59:52,456 - INFO - Created 'Zoom In' button.
+2024-11-02 11:59:52,456 - INFO - Created 'Zoom Out' button.
+2024-11-02 11:59:52,457 - INFO - Created 'Fine Zoom In' button.
+2024-11-02 11:59:52,457 - INFO - Created 'Fine Zoom Out' button.
+2024-11-02 11:59:52,457 - INFO - Created 'Undo Move' button.
+2024-11-02 11:59:52,457 - INFO - Created 'Redo Move' button.
+2024-11-02 11:59:52,463 - INFO - Created active image selection dropdown.
+2024-11-02 11:59:52,463 - INFO - Created 'Open Ruler' button.
+2024-11-02 11:59:52,463 - INFO - Created 'Normal' button to load 'Normal(medium).svg'.
+2024-11-02 11:59:52,463 - INFO - Created 'Tapered' button to load 'Tapered(medium).svg'.
+2024-11-02 11:59:52,464 - INFO - Created 'Ovoide' button to load 'Ovoide(medium).svg'.
+2024-11-02 11:59:52,464 - INFO - Created 'NarrowTappered' button to load 'NarrowTapered(medium).svg'.
+2024-11-02 11:59:52,464 - INFO - Created 'NarrowOvoide' button to load 'NarrowOvoide(medium).svg'.
+2024-11-02 11:59:52,464 - INFO - Created 'Hide Window' button.
+2024-11-02 11:59:52,465 - INFO - Image window initialized and configured.
+2024-11-02 11:59:52,465 - INFO - Image Overlay Application started.
+2024-11-02 11:59:52,505 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:59:52,506 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:59:57,659 - INFO - Image window hidden.
+2024-11-02 11:59:58,221 - INFO - Image window shown.
+2024-11-02 11:59:58,223 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:59:58,223 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 11:59:59,073 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\NarrowOvoide(medium).svg
+2024-11-02 11:59:59,100 - INFO - Resized default image to (800, 450) for optimal performance.
+2024-11-02 11:59:59,101 - INFO - Loaded default image 'NarrowOvoide' at position (960.0, 540.0)
+2024-11-02 11:59:59,143 - INFO - Default image 'NarrowOvoide' loaded successfully.
+2024-11-02 11:59:59,144 - INFO - Active image changed to 'NarrowOvoide'.
+2024-11-02 12:00:01,462 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\NarrowTapered(medium).svg
+2024-11-02 12:00:01,490 - INFO - Resized default image to (800, 450) for optimal performance.
+2024-11-02 12:00:01,490 - INFO - Loaded default image 'NarrowTappered' at position (960.0, 540.0)
+2024-11-02 12:00:01,567 - INFO - Default image 'NarrowTappered' loaded successfully.
+2024-11-02 12:00:01,568 - INFO - Active image changed to 'NarrowTappered'.
+2024-11-02 12:00:17,234 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\NarrowTapered(medium).svg
+2024-11-02 12:00:17,262 - INFO - Resized default image to (800, 450) for optimal performance.
+2024-11-02 12:00:17,262 - INFO - Loaded default image 'NarrowTappered' at position (960.0, 540.0)
+2024-11-02 12:00:17,342 - INFO - Default image 'NarrowTappered' loaded successfully.
+2024-11-02 12:00:17,342 - INFO - Active image changed to 'NarrowTappered'.
+2024-11-02 12:00:17,970 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\NarrowOvoide(medium).svg
+2024-11-02 12:00:17,997 - INFO - Resized default image to (800, 450) for optimal performance.
+2024-11-02 12:00:17,998 - INFO - Loaded default image 'NarrowOvoide' at position (960.0, 540.0)
+2024-11-02 12:00:18,074 - INFO - Default image 'NarrowOvoide' loaded successfully.
+2024-11-02 12:00:18,074 - INFO - Active image changed to 'NarrowOvoide'.
+2024-11-02 12:00:18,246 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\NarrowOvoide(medium).svg
+2024-11-02 12:00:18,274 - INFO - Resized default image to (800, 450) for optimal performance.
+2024-11-02 12:00:18,274 - INFO - Loaded default image 'NarrowOvoide' at position (960.0, 540.0)
+2024-11-02 12:00:18,350 - INFO - Default image 'NarrowOvoide' loaded successfully.
+2024-11-02 12:00:18,350 - INFO - Active image changed to 'NarrowOvoide'.
+2024-11-02 12:00:18,720 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\NarrowOvoide(medium).svg
+2024-11-02 12:00:18,747 - INFO - Resized default image to (800, 450) for optimal performance.
+2024-11-02 12:00:18,748 - INFO - Loaded default image 'NarrowOvoide' at position (960.0, 540.0)
+2024-11-02 12:00:18,823 - INFO - Default image 'NarrowOvoide' loaded successfully.
+2024-11-02 12:00:18,824 - INFO - Active image changed to 'NarrowOvoide'.
+2024-11-02 12:00:19,133 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\NarrowTapered(medium).svg
+2024-11-02 12:00:19,160 - INFO - Resized default image to (800, 450) for optimal performance.
+2024-11-02 12:00:19,161 - INFO - Loaded default image 'NarrowTappered' at position (960.0, 540.0)
+2024-11-02 12:00:19,238 - INFO - Default image 'NarrowTappered' loaded successfully.
+2024-11-02 12:00:19,239 - INFO - Active image changed to 'NarrowTappered'.
+2024-11-02 12:00:23,394 - INFO - Active image changed to 'NarrowOvoide'.
+2024-11-02 12:00:24,781 - INFO - Image window resized to (1920x1080). Images re-centered.
+2024-11-02 12:00:24,781 - INFO - Mouse down at (958, 390) on canvas.
+2024-11-02 12:00:24,781 - INFO - Image 'NarrowOvoide' selected.
+2024-11-02 12:00:26,378 - INFO - Mouse down at (962, 365) on canvas.
+2024-11-02 12:00:26,379 - INFO - Image 'NarrowOvoide' selected.
+2024-11-02 12:00:29,579 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Tapered(medium).svg
+2024-11-02 12:00:29,607 - INFO - Resized default image to (800, 450) for optimal performance.
+2024-11-02 12:00:29,607 - INFO - Loaded default image 'Tapered' at position (960.0, 540.0)
+2024-11-02 12:00:29,726 - INFO - Default image 'Tapered' loaded successfully.
+2024-11-02 12:00:29,727 - INFO - Active image changed to 'Tapered'.
+2024-11-02 12:00:29,940 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Tapered(medium).svg
+2024-11-02 12:00:29,968 - INFO - Resized default image to (800, 450) for optimal performance.
+2024-11-02 12:00:29,969 - INFO - Loaded default image 'Tapered' at position (960.0, 540.0)
+2024-11-02 12:00:30,086 - INFO - Default image 'Tapered' loaded successfully.
+2024-11-02 12:00:30,087 - INFO - Active image changed to 'Tapered'.
+2024-11-02 12:00:30,329 - INFO - Converted SVG to PNG: c:\Users\User\Desktop\Python\image_overlay_app\controllers\..\Images\Normal(medium).svg
+2024-11-02 12:00:30,357 - INFO - Resized default image to (800, 450) for optimal performance.
+2024-11-02 12:00:30,357 - INFO - Loaded default image 'Normal' at position (960.0, 540.0)
+2024-11-02 12:00:30,509 - INFO - Default image 'Normal' loaded successfully.
+2024-11-02 12:00:30,510 - INFO - Active image changed to 'Normal'.
+2024-11-02 12:00:59,371 - INFO - Mouse wheel event detected with delta=120
+2024-11-02 12:00:59,416 - INFO - Mouse wheel event detected with delta=120
+2024-11-02 12:00:59,452 - INFO - Mouse wheel event detected with delta=120
+2024-11-02 12:01:01,740 - INFO - Mouse wheel event detected with delta=120
+2024-11-02 12:01:09,368 - INFO - Application is closing.

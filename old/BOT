@@ -1,0 +1,112 @@
+import tkinter as tk
+import requests
+from datetime import datetime
+
+# Define the API key and endpoint directly
+API_KEY = "xai-mEynVWIEMj2DnWz3QXvyjttAwFN66qdNU8lqExg7GzU1KJEUsuneDS7LCcMMzhtGvnpN7OIFeNBscOuA"
+API_URL = "https://api.x.ai/v1/chat/completions"  # Verify if this is the correct endpoint
+
+# Variables to store session and conversation history
+session_history = []  # Stores messages in the current session
+all_conversations = []  # Stores history of all sessions
+
+# Function to send a message to Grok and get the response
+def send_message():
+    user_message = user_input.get()
+    if user_message:
+        # Display user message in chat history
+        chat_history.config(state=tk.NORMAL)
+        chat_history.insert(tk.END, "You: " + user_message + "\n\n\n")  # Add 3 blank lines
+        chat_history.config(state=tk.DISABLED)
+
+        # Add user message to session history
+        session_history.append({"role": "user", "content": user_message})
+
+        # Clear input box
+        user_input.delete(0, tk.END)
+
+        # API call to Grok using requests
+        try:
+            response = requests.post(
+                API_URL,
+                headers={
+                    "Authorization": f"Bearer {API_KEY}",
+                    "Content-Type": "application/json"
+                },
+                json={
+                    "model": "grok-beta",
+                    "messages": session_history,  # Send the full conversation context
+                    "temperature": 0.7
+                }
+            )
+            response.raise_for_status()  # Raises an error for bad responses
+            data = response.json()
+
+            # Extract response content
+            bot_response = data["choices"][0]["message"]["content"]
+
+            # Add bot response to session history
+            session_history.append({"role": "assistant", "content": bot_response})
+
+            # Display bot response in chat history
+            chat_history.config(state=tk.NORMAL)
+            chat_history.insert(tk.END, "Bot: " + bot_response.strip() + "\n\n\n")  # Add 3 blank lines
+            chat_history.config(state=tk.DISABLED)
+            chat_history.yview(tk.END)  # Scroll to the end of the chat
+        except requests.exceptions.RequestException as e:
+            chat_history.config(state=tk.NORMAL)
+            chat_history.insert(tk.END, f"Error: Unable to connect to Grok ({e})\n\n\n")  # Add 3 blank lines for errors too
+            chat_history.config(state=tk.DISABLED)
+
+# Function to start a new session
+def start_new_session():
+    global session_history
+    if session_history:
+        all_conversations.append(session_history)  # Save the current session history
+    session_history = []  # Reset for a new session
+    chat_history.config(state=tk.NORMAL)
+    chat_history.delete(1.0, tk.END)  # Clear the chat window for a fresh start
+    chat_history.config(state=tk.DISABLED)
+
+# Function to export the current session to a text file
+def export_conversation():
+    if session_history:
+        filename = f"conversation_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
+        with open(filename, 'w') as file:
+            for message in session_history:
+                role = "You" if message["role"] == "user" else "Bot"
+                file.write(f"{role}: {message['content']}\n\n")
+        chat_history.config(state=tk.NORMAL)
+        chat_history.insert(tk.END, f"\nConversation exported as {filename}\n\n")
+        chat_history.config(state=tk.DISABLED)
+        chat_history.yview(tk.END)
+
+# Create the main window
+window = tk.Tk()
+window.title("Chatbot")
+window.geometry("400x600")  # Increased height for visibility
+
+# Export button to save the conversation (placed at the top for better visibility)
+export_button = tk.Button(window, text="Export Conversation", command=export_conversation)
+export_button.pack(pady=(10, 10))  # Padding for visibility
+
+# Chat history text box
+chat_history = tk.Text(window, state=tk.DISABLED, wrap=tk.WORD)
+chat_history.pack(padx=10, pady=10, fill=tk.BOTH, expand=True)
+
+# Entry widget for user input
+user_input = tk.Entry(window)
+user_input.pack(padx=10, pady=(0, 10), fill=tk.X)
+
+# Send button to trigger sending the message
+send_button = tk.Button(window, text="Send", command=send_message)
+send_button.pack(pady=(0, 10))
+
+# New session button to reset conversation
+new_session_button = tk.Button(window, text="New Session", command=start_new_session)
+new_session_button.pack(pady=(0, 10))
+
+# Enter key binding to send message
+window.bind('<Return>', lambda event: send_message())
+
+window.mainloop()

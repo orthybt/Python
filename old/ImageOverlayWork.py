@@ -62,15 +62,10 @@ class ImageOverlayApp:
         self.is_dragging = False
         self.is_rotation_point_mode = False  # Rotation point selection mode
 
-        # Additional windows
-        self.additional_windows = []
-        self.brainstorm_window = None  # Track the brainstorm window
-
         # Initialize the GUI
         self.setup_buttons_window()
         self.setup_image_window()
         self.update_transparency_button()
-        self.load_default_brainstorm_image()
 
         # Hide the image window by default
         self.image_window.withdraw()
@@ -118,12 +113,6 @@ class ImageOverlayApp:
 
         # Image visibility checkboxes
         self.create_visibility_controls(btn_frame)
-
-        # Button to open/hide brainstorm window
-        self.create_brainstorm_window_button(btn_frame)
-
-        # Button to toggle ruler (load/hide default third image)
-        self.create_ruler_button(btn_frame)
 
         # Configure grid weights for equal button sizes
         for i in range(2):
@@ -300,22 +289,6 @@ class ImageOverlayApp:
         )
         self.chk_third_image_visibility.grid(row=12, column=0, pady=5, sticky='w')
 
-    def create_brainstorm_window_button(self, parent):
-        """
-        Creates a button to open/hide the brainstorm window.
-        """
-        self.btn_toggle_brainstorm_window = tk.Button(
-            parent, text="Open Brainstorm Window", command=self.toggle_brainstorm_window)
-        self.btn_toggle_brainstorm_window.grid(row=13, column=0, columnspan=2, pady=5, sticky='ew')
-
-    def create_ruler_button(self, parent):
-        """
-        Creates a button to toggle the ruler (load/hide default third image).
-        """
-        self.btn_open_ruler = tk.Button(
-            parent, text="Open Ruler", command=self.toggle_ruler)
-        self.btn_open_ruler.grid(row=14, column=0, columnspan=2, pady=5, sticky='ew')
-
     ############################################
     ### --- Binding Methods --- ###
     ############################################
@@ -432,19 +405,6 @@ class ImageOverlayApp:
         except Exception as e:
             print(f"Error loading image: {e}")
             return None
-
-    def load_default_brainstorm_image(self):
-        """
-        Loads 'WorkOrder.png' as the default image in the brainstorm window.
-        """
-        script_dir = os.path.dirname(os.path.abspath(__file__))
-        images_dir = os.path.join(script_dir, 'Images')
-        filepath = os.path.join(images_dir, 'WorkOrder.png')
-        if os.path.exists(filepath):
-            self.default_brainstorm_image_path = filepath
-        else:
-            print(f"'WorkOrder.png' not found in {images_dir}")
-            self.default_brainstorm_image_path = None
 
     def load_default_third_image(self):
         """
@@ -605,7 +565,7 @@ class ImageOverlayApp:
 
         # Draw the image at the offset position
         self.canvas.create_image(
-            image_state.offset_x, image_state.offset_y, image=image_state.image_display
+            image_state.offset_x, image_state.offset_y, anchor='nw', image=image_state.image_display
         )
 
         # Draw a marker at the rotation point if set
@@ -896,360 +856,69 @@ class ImageOverlayApp:
             self.btn_redo_move.config(state='disabled')
 
     #########################################
-    ### --- Brainstorm Window Methods --- ###
+    ### --- Image Drawing Methods --- ###
     #########################################
 
-    def toggle_brainstorm_window(self):
+    def draw_images(self):
         """
-        Toggles the brainstorm window visibility.
+        Clears the canvas and redraws all visible images.
         """
-        if self.brainstorm_window and self.brainstorm_window.winfo_exists():
-            if self.brainstorm_window.state() == 'normal':
-                # Window is visible; hide it
-                self.brainstorm_window.withdraw()
-                self.btn_toggle_brainstorm_window.config(text="Open Brainstorm Window")
-            elif self.brainstorm_window.state() == 'withdrawn':
-                # Window is hidden; show it
-                self.brainstorm_window.deiconify()
-                self.btn_toggle_brainstorm_window.config(text="Hide Brainstorm Window")
-            else:
-                # Other states (e.g., minimized), bring it to normal state
-                self.brainstorm_window.deiconify()
-                self.brainstorm_window.state('normal')
-                self.btn_toggle_brainstorm_window.config(text="Hide Brainstorm Window")
-        else:
-            # Window doesn't exist or has been destroyed; create a new one
-            self.open_brainstorm_window()
-            self.btn_toggle_brainstorm_window.config(text="Hide Brainstorm Window")
+        self.canvas.delete("all")
+        for image_state in self.images.values():
+            if image_state.visible:
+                self.draw_image(image_state)
+        self.image_window.update_idletasks()
 
-    def open_brainstorm_window(self):
+    def draw_image(self, image_state):
         """
-        Opens a new brainstorm window, adjusted to fit the toolbar components.
-        Adds functionalities to load an image, draw with a pen or eraser, add text,
-        choose thickness and color, and add a close button.
+        Applies transformations to an image and draws it on the canvas.
         """
-        if self.brainstorm_window and self.brainstorm_window.winfo_exists():
-            # Window already exists
-            self.brainstorm_window.deiconify()
-            return
+        # Apply transformations
+        img = image_state.image_original.copy()
 
-        new_window = tk.Toplevel(self.root)
-        self.brainstorm_window = new_window
-        new_window.title("Brainstorm Window")
+        # Apply transparency
+        if image_state.image_transparency_level < 1.0:
+            alpha = img.getchannel('A')
+            alpha = alpha.point(lambda p: int(p * image_state.image_transparency_level))
+            img.putalpha(alpha)
 
-        # Allow window resizing
-        new_window.resizable(True, True)
+        # Resize
+        img = img.resize(
+            (int(img.width * image_state.scale), int(img.height * image_state.scale)),
+            Image.LANCZOS
+        )
 
-        # Create a frame to hold the toolbar and canvas
-        frame = tk.Frame(new_window)
-        frame.pack(fill='both', expand=True)  # Ensure the frame fills the window
+        # Apply flips
+        if image_state.is_flipped_horizontally:
+            img = img.transpose(Image.FLIP_LEFT_RIGHT)
+        if image_state.is_flipped_vertically:
+            img = img.transpose(Image.FLIP_TOP_BOTTOM)
 
-        # Create a toolbar
-        toolbar = tk.Frame(frame, bg='lightgrey')
-        toolbar.pack(side='top', fill='x')
-
-        # Load Image Button
-        btn_load = tk.Button(toolbar, text="Load Image", command=lambda: self.load_image_brainstorm_window(new_window))
-        btn_load.pack(side='left', padx=5, pady=5)
-
-        # Pen Color Button
-        btn_color = tk.Button(toolbar, text="Pen Color", command=lambda: self.choose_pen_color(new_window))
-        btn_color.pack(side='left', padx=5, pady=5)
-
-        # Tool Selection
-        tool_var = tk.StringVar(value='Pen')
-        new_window.tool_var = tool_var  # Store in window for access
-
-        tool_frame = tk.Frame(toolbar)
-        tool_frame.pack(side='left', padx=5, pady=5)
-
-        tk.Label(tool_frame, text="Tool:").pack(side='left')
-
-        tk.Radiobutton(tool_frame, text="Pen", variable=tool_var, value='Pen').pack(side='left')
-        tk.Radiobutton(tool_frame, text="Eraser", variable=tool_var, value='Eraser').pack(side='left')
-
-        # Pen Thickness OptionMenu
-        pen_thickness_var = tk.IntVar(value=3)
-        thickness_menu = tk.OptionMenu(toolbar, pen_thickness_var, *range(1, 11))
-        thickness_menu.config(width=5)
-        thickness_menu.pack(side='left', padx=5, pady=5)
-        tk.Label(toolbar, text="Pen Thickness").pack(side='left')
-
-        # Eraser Thickness OptionMenu
-        eraser_thickness_var = tk.IntVar(value=10)
-        eraser_thickness_menu = tk.OptionMenu(toolbar, eraser_thickness_var, *range(5, 51, 5))
-        eraser_thickness_menu.config(width=5)
-        eraser_thickness_menu.pack(side='left', padx=5, pady=5)
-        tk.Label(toolbar, text="Eraser Size").pack(side='left')
-
-        # Text Tool Activation Button
-        self.is_text_mode = False  # Flag to track text mode
-        btn_text_mode = tk.Button(toolbar, text="Add Text", command=lambda: self.toggle_text_mode(btn_text_mode, new_window))
-        btn_text_mode.pack(side='left', padx=5, pady=5)
-
-        # Font Size OptionMenu
-        font_size_var = tk.IntVar(value=12)
-        font_size_menu = tk.OptionMenu(toolbar, font_size_var, *range(8, 49, 2))
-        font_size_menu.config(width=5)
-        font_size_menu.pack(side='left', padx=5, pady=5)
-        tk.Label(toolbar, text="Font Size").pack(side='left')
-
-        new_window.font_size_var = font_size_var  # Store in window for access
-
-        # Save Image Button
-        btn_save_image = tk.Button(toolbar, text="Save Image", command=lambda: self.save_brainstorm_image(new_window))
-        btn_save_image.pack(side='right', padx=5, pady=5)
-
-        # Close Button
-        btn_close = tk.Button(toolbar, text="Close", command=self.close_brainstorm_window)
-        btn_close.pack(side='right', padx=5, pady=5)
-
-        # Create a canvas in the new window
-        drawing_canvas = tk.Canvas(frame, bg='white', cursor="cross")
-        drawing_canvas.pack(fill='both', expand=True)  # Ensure the canvas fills the frame
-
-        # Store the canvas in the window object
-        new_window.drawing_canvas = drawing_canvas
-
-        # Initialize drawing variables
-        drawing_canvas.image = None
-        drawing_canvas.pen_color = 'black'
-        drawing_canvas.pen_thickness_var = pen_thickness_var
-        drawing_canvas.eraser_thickness_var = eraser_thickness_var
-        drawing_canvas.old_x = None
-        drawing_canvas.old_y = None
-        drawing_canvas.tool_var = tool_var
-        drawing_canvas.is_text_mode = False
-        drawing_canvas.font_size_var = font_size_var
-
-        # Initialize the PIL Image for drawing
-        drawing_canvas.image_pil = None  # This will be initialized on the first configure event
-        drawing_canvas.draw = None  # PIL ImageDraw object
-        drawing_canvas.background_image_pil = None  # Background image
-
-        # Bind drawing events
-        drawing_canvas.bind('<ButtonPress-1>', lambda event: self.start_drawing(event, drawing_canvas))
-        drawing_canvas.bind('<B1-Motion>', lambda event: self.draw(event, drawing_canvas))
-        drawing_canvas.bind('<ButtonRelease-1>', lambda event: self.reset_drawing(event, drawing_canvas))
-
-        # Update the canvas when the window is resized
-        drawing_canvas.bind('<Configure>', lambda event: self.on_canvas_resize(event, new_window, drawing_canvas))
-
-        # Store the window reference if you need to access it later
-        self.additional_windows.append(new_window)
-
-        new_window.attributes('-topmost', True)
-        new_window.protocol("WM_DELETE_WINDOW", self.close_brainstorm_window)
-
-        # Increase the window height by 80% after all widgets are packed
-        new_window.update_idletasks()
-        current_width = new_window.winfo_width()
-        current_height = new_window.winfo_height()
-        new_height = int(current_height * 1.8)
-        new_window.geometry(f"{current_width}x{new_height}")
-
-        # Load the default brainstorm image if available
-        if self.default_brainstorm_image_path:
-            self.load_image_brainstorm_window(new_window, self.default_brainstorm_image_path)
-
-    def close_brainstorm_window(self):
-        """
-        Closes the brainstorm window, prompts to save, and updates the button text.
-        """
-        if self.brainstorm_window:
-            # Get the canvas
-            canvas = self.brainstorm_window.drawing_canvas
-            if canvas.image_pil:
-                # Ask the user if they want to save
-                result = messagebox.askyesnocancel("Save Image", "Do you want to save your brainstorm image before closing?")
-                if result:  # User clicked 'Yes'
-                    save_dir = r"C:\Users\User\OneDrive\Desktop\SimplySmileWorkOrders"
-                    self.save_brainstorm_image(self.brainstorm_window, save_dir=save_dir)
-                elif result is None:  # User clicked 'Cancel'
-                    return  # Do not close the window
-                # else:  # User clicked 'No', proceed to close
-            self.brainstorm_window.destroy()
-            self.brainstorm_window = None
-            self.btn_toggle_brainstorm_window.config(text="Open Brainstorm Window")
-
-    def load_image_brainstorm_window(self, window, filepath=None):
-        """
-        Loads an image into the brainstorm window and scales it according to the window size.
-        """
-        if not filepath:
-            filepath = filedialog.askopenfilename(
-                title="Select Image",
-                filetypes=[("Image Files", "*.jpg;*.jpeg;*.png;*.bmp;*.svg")]
+        # Rotate around the rotation point if set
+        if image_state.rotation_point:
+            rotation_center = (
+                image_state.rotation_point[0] - (image_state.offset_x - img.width / 2),
+                image_state.rotation_point[1] - (image_state.offset_y - img.height / 2)
             )
-        if filepath:
-            image_original = self.open_image_file(filepath)
-            if image_original:
-                # Get the canvas
-                canvas = window.drawing_canvas
-                # Store the background image
-                canvas.background_image_pil = image_original
-                # Initialize the drawing canvas
-                self.initialize_drawing_canvas(canvas)
-                # Draw the image
-                self.redraw_brainstorm_image(window, canvas)
-
-    def initialize_drawing_canvas(self, canvas):
-        """
-        Initializes the PIL Image and ImageDraw objects for the canvas.
-        """
-        canvas_width = canvas.winfo_width()
-        canvas_height = canvas.winfo_height()
-        if canvas_width < 1 or canvas_height < 1:
-            return  # Invalid size
-
-        # Create a new PIL image for the canvas
-        canvas.image_pil = Image.new('RGB', (canvas_width, canvas_height), 'white')
-        canvas.draw = ImageDraw.Draw(canvas.image_pil)
-
-        # If there's a background image, resize and paste it
-        if canvas.background_image_pil:
-            bg_image = canvas.background_image_pil.copy()
-            bg_image = bg_image.resize((canvas_width, canvas_height), Image.LANCZOS)
-            canvas.image_pil.paste(bg_image, (0, 0))
-
-    def on_canvas_resize(self, event, window, canvas):
-        """
-        Handles canvas resizing events.
-        """
-        if canvas.image_pil:
-            # Save the current image
-            current_image = canvas.image_pil.copy()
-
-            # Reinitialize the drawing canvas
-            self.initialize_drawing_canvas(canvas)
-
-            # Paste the old image onto the new one
-            new_width, new_height = canvas.image_pil.size
-            old_width, old_height = current_image.size
-            canvas.image_pil.paste(current_image.resize((new_width, new_height), Image.LANCZOS), (0, 0))
-
+            img = img.rotate(image_state.angle, expand=True, center=rotation_center)
         else:
-            # Initialize the drawing canvas for the first time
-            self.initialize_drawing_canvas(canvas)
+            img = img.rotate(image_state.angle, expand=True)
 
-        # Redraw the canvas
-        self.redraw_brainstorm_image(window, canvas)
+        image_state.image_display = ImageTk.PhotoImage(img)
 
-    def redraw_brainstorm_image(self, window, canvas):
-        """
-        Redraws the image on the canvas.
-        """
-        if canvas.image_pil:
-            # Convert the PIL image to a PhotoImage
-            image_display = ImageTk.PhotoImage(canvas.image_pil)
-            canvas.image = image_display  # Keep a reference to prevent garbage collection
-            canvas.delete("all")
-            canvas.create_image(0, 0, anchor='nw', image=image_display)
+        # Draw the image at the offset position
+        self.canvas.create_image(
+            image_state.offset_x, image_state.offset_y, anchor='nw', image=image_state.image_display
+        )
 
-    def choose_pen_color(self, window):
-        """
-        Opens a color chooser dialog to select pen color.
-        """
-        color = colorchooser.askcolor()[1]
-        if color:
-            canvas = window.drawing_canvas
-            canvas.pen_color = color
-
-    def toggle_text_mode(self, btn_text_mode, window):
-        """
-        Toggles the text-adding mode.
-        """
-        canvas = window.drawing_canvas
-        if not canvas.is_text_mode:
-            canvas.is_text_mode = True
-            btn_text_mode.config(text="Text Mode ON")
-            # Change cursor to indicate text mode
-            canvas.config(cursor="xterm")
-        else:
-            canvas.is_text_mode = False
-            btn_text_mode.config(text="Add Text")
-            canvas.config(cursor="cross")
-
-    def add_text(self, event, canvas):
-        """
-        Adds text at the position of the mouse click.
-        """
-        text = simpledialog.askstring("Input Text", "Enter text to display:", parent=self.brainstorm_window)
-        if text:
-            font_size = canvas.font_size_var.get()
-            try:
-                font = ImageFont.truetype("arial.ttf", font_size)
-            except IOError:
-                font = ImageFont.load_default()
-            # Draw text on the PIL image
-            canvas.draw.text((event.x, event.y), text, fill='black', font=font)
-            # Redraw the canvas
-            self.redraw_brainstorm_image(self.brainstorm_window, canvas)
-
-    def start_drawing(self, event, canvas):
-        """
-        Initializes drawing or adds text based on the current mode.
-        """
-        if canvas.is_text_mode:
-            self.add_text(event, canvas)
-        else:
-            canvas.old_x = event.x
-            canvas.old_y = event.y
-
-    def draw(self, event, canvas):
-        """
-        Draws on the canvas from the previous position to the current position, using the selected tool.
-        """
-        if canvas.is_text_mode:
-            return  # Do not draw if in text mode
-        if canvas.old_x and canvas.old_y:
-            tool = canvas.tool_var.get()
-            if tool == 'Pen':
-                pen_thickness = canvas.pen_thickness_var.get()
-                # Draw on the PIL image
-                canvas.draw.line(
-                    [canvas.old_x, canvas.old_y, event.x, event.y],
-                    fill=canvas.pen_color, width=pen_thickness
-                )
-            elif tool == 'Eraser':
-                eraser_size = canvas.eraser_thickness_var.get()
-                # Erase by drawing white lines
-                canvas.draw.line(
-                    [canvas.old_x, canvas.old_y, event.x, event.y],
-                    fill='white', width=eraser_size
-                )
-            canvas.old_x = event.x
-            canvas.old_y = event.y
-            # Update the canvas display
-            self.redraw_brainstorm_image(self.brainstorm_window, canvas)
-
-    def reset_drawing(self, event, canvas):
-        """
-        Resets the drawing positions.
-        """
-        canvas.old_x = None
-        canvas.old_y = None
-
-    def save_brainstorm_image(self, window, save_dir=None):
-        """
-        Saves the current canvas image, including all drawings and text, to a file.
-        """
-        canvas = window.drawing_canvas
-        if canvas.image_pil:
-            filepath = filedialog.asksaveasfilename(
-                defaultextension=".png",
-                filetypes=[("PNG Files", "*.png"), ("JPEG Files", "*.jpg;*.jpeg"), ("All Files", "*.*")],
-                title="Save Image",
-                initialdir=save_dir  # Use save_dir if provided
+        # Draw a marker at the rotation point if set
+        if image_state.rotation_point:
+            radius = 1.5  # Marker size
+            self.canvas.create_oval(
+                image_state.rotation_point[0] - radius, image_state.rotation_point[1] - radius,
+                image_state.rotation_point[0] + radius, image_state.rotation_point[1] + radius,
+                fill='red', outline=''
             )
-            if filepath:
-                try:
-                    canvas.image_pil.save(filepath)
-                    messagebox.showinfo("Image Saved", f"Image saved successfully to:\n{filepath}")
-                except Exception as e:
-                    messagebox.showerror("Save Error", f"Error saving image:\n{e}")
-        else:
-            messagebox.showwarning("No Image", "There is no image to save.")
 
     #########################################
     ### --- Application Exit Method --- ###
@@ -1259,9 +928,6 @@ class ImageOverlayApp:
         """
         Handles the closing of the application.
         """
-        # Close all additional windows
-        for window in self.additional_windows:
-            window.destroy()
         self.root.destroy()
         sys.exit(0)
 

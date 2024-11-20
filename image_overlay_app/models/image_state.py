@@ -19,8 +19,6 @@ class ImageState:
         self.visible = True  # Visibility status
         self.rotation_point = None  # (x, y) tuple
         self.image_transparency_level = 1.0  # Transparency (1.0 = opaque)
-        self.position_history = []  # Stack for undo
-        self.redo_stack = []  # Stack for redo
         self.photo_image = None  # Reference to ImageTk.PhotoImage to prevent garbage collection
         # Attributes for dragging
         self.drag_start_x = None

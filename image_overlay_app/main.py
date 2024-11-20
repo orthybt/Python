@@ -60,7 +60,5 @@ class ImageOverlayApp:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    # Optionally, hide the root window if you only want the control and image windows
-    # root.withdraw()
     app = ImageOverlayApp(root)
     root.mainloop()

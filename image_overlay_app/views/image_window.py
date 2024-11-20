@@ -5,11 +5,6 @@ from PIL import ImageTk, Image
 import logging
 import sys
 
-# Import ctypes only if on Windows
-if sys.platform.startswith('win'):
-    import ctypes
-    from ctypes import wintypes
-
 class ImageWindow:
     """
     Represents the window displaying images.
@@ -35,6 +30,7 @@ class ImageWindow:
         # Remove window decorations and make background transparent
         self.image_window.overrideredirect(True)
         self.image_window.attributes('-transparentcolor', 'grey')
+        self.image_window.configure(bg='grey')
 
         # Make the window always on top
         self.image_window.attributes('-topmost', True)
@@ -49,8 +45,8 @@ class ImageWindow:
         # Bind mouse events
         self.bind_events()
 
-        # Update canvas size on window resize
-        self.image_window.bind('<Configure>', self.on_image_window_resize)
+        # Bind the configure event to handle window resizing
+        self.image_window.bind('<Configure>', self.app.image_manager.on_image_window_resize)
 
         logging.info("Image window initialized and configured.")
 
@@ -148,14 +144,44 @@ class ImageWindow:
         """
         self.canvas.delete("rotation_point")
 
-    def on_image_window_resize(self, event):
+    def make_fullscreen(self):
         """
-        Adjusts the canvas size when the image window is resized and recenters images.
+        Sets the window to fullscreen mode.
         """
-        new_width = event.width
-        new_height = event.height
-        for image_state in self.app.image_manager.images.values():
-            image_state.offset_x = new_width / 2
-            image_state.offset_y = new_height / 2
-        self.draw_images()
-        logging.info(f"Image window resized to ({new_width}x{new_height}). Images re-centered.")
+        self.image_window.attributes('-fullscreen', True)
+
+    def exit_fullscreen(self):
+        """
+        Exits fullscreen mode.
+        """
+        self.image_window.attributes('-fullscreen', False)
+
+    def toggle_fullscreen(self, event=None):
+        """
+        Toggles fullscreen mode on/off.
+        """
+        is_fullscreen = self.image_window.attributes('-fullscreen')
+        self.image_window.attributes('-fullscreen', not is_fullscreen)
+
+    def close_window(self):
+        """
+        Closes the image window gracefully.
+        """
+        self.image_window.destroy()
+        logging.info("Image window closed.")
+
+    def hide_window(self):
+        """
+        Hides the image window.
+        """
+        self.image_window.withdraw()
+        self.is_visible = False
+        logging.info("Image window hidden.")
+
+    def show_window(self):
+        """
+        Shows the image window.
+        """
+        self.image_window.deiconify()
+        self.is_visible = True
+        logging.info("Image window shown.")

@@ -4,12 +4,13 @@ import tkinter as tk
 from tkinter import ttk
 import logging
 
-class ButtonsWindow:
+class ButtonsWindow(tk.Toplevel):
     """
     Constructs the main control window with buttons and controls.
     """
 
     def __init__(self, app):
+        super().__init__()
         self.app = app
         self.root = app.root
         self.transparency_level = 1.0
@@ -21,7 +22,7 @@ class ButtonsWindow:
         """
         self.root.title("Controls")
         self.transparency_level = 1.0
-        self.image_window_visible = False
+        self.image_window_visible = True  # Initially visible
 
         # Keep the control window on top
         self.root.attributes('-topmost', True)
@@ -37,7 +38,6 @@ class ButtonsWindow:
         self.create_flip_controls()
         self.create_rotation_point_control()
         self.create_zoom_controls()
-        self.create_undo_redo_controls()
         self.create_active_image_control()
         self.create_visibility_controls()
         self.create_ruler_button()
@@ -59,24 +59,31 @@ class ButtonsWindow:
         """
         Creates transparency control buttons.
         """
-        btn_increase_transparency = tk.Button(
-            self.btn_frame, text="Btns Transp+", command=self.app.image_manager.increase_buttons_transparency
-        )
-        btn_increase_transparency.grid(row=0, column=0, pady=5, sticky='ew')
-        logging.info("Created 'Btns Transp+' button.")
+        self.btn_frame = tk.Frame(self)
+        self.btn_frame.pack(pady=10)
 
-        btn_decrease_transparency = tk.Button(
-            self.btn_frame, text="Btns Transp-", command=self.app.image_manager.decrease_buttons_transparency
-        )
-        btn_decrease_transparency.grid(row=0, column=1, pady=5, sticky='ew')
-        logging.info("Created 'Btns Transp-' button.")
+        # Removed buttons related to increasing/decreasing buttons transparency
+        # self.btn_increase_transparency = tk.Button(
+        #     self.btn_frame,
+        #     text="Btns Transp+",
+        #     command=self.app.image_manager.increase_buttons_transparency
+        # )
+        # self.btn_increase_transparency.pack(side=tk.LEFT, padx=5)
 
-        # Toggle transparency button
+        # self.btn_decrease_transparency = tk.Button(
+        #     self.btn_frame,
+        #     text="Btns Transp-",
+        #     command=self.app.image_manager.decrease_buttons_transparency
+        # )
+        # self.btn_decrease_transparency.pack(side=tk.LEFT, padx=5)
+
+        # Keep the toggle transparency button
         self.btn_toggle_transparency = tk.Button(
-            self.btn_frame, text="Toggle Transp", command=self.app.image_manager.toggle_transparency
+            self.btn_frame,
+            text="Toggle Transparency",
+            command=self.app.image_manager.toggle_transparency
         )
-        self.btn_toggle_transparency.grid(row=1, column=0, columnspan=2, pady=5, sticky='ew')
-        logging.info("Created 'Toggle Transp' button.")
+        self.btn_toggle_transparency.pack(side=tk.LEFT, padx=5)
 
     def create_image_controls(self):
         """
@@ -87,19 +94,26 @@ class ButtonsWindow:
 
     def create_flip_controls(self):
         """
-        Creates image flip control buttons.
+        Creates buttons for flipping the active image horizontally and vertically.
         """
+        # Create a new frame for flip controls
+        flip_frame = tk.Frame(self)
+        flip_frame.pack(pady=10)
+
+        # Widgets in flip_frame can now use grid
         btn_flip_horizontal = tk.Button(
-            self.btn_frame, text="Flip Horizontal", command=self.app.image_manager.flip_image_horizontal
+            flip_frame,
+            text="Flip Horizontal",
+            command=self.app.image_manager.flip_image_horizontal
         )
-        btn_flip_horizontal.grid(row=2, column=0, pady=5, sticky='ew')
-        logging.info("Created 'Flip Horizontal' button.")
+        btn_flip_horizontal.grid(row=0, column=0, padx=5, pady=5)
 
         btn_flip_vertical = tk.Button(
-            self.btn_frame, text="Flip Vertical", command=self.app.image_manager.flip_image_vertical
+            flip_frame,
+            text="Flip Vertical",
+            command=self.app.image_manager.flip_image_vertical
         )
-        btn_flip_vertical.grid(row=2, column=1, pady=5, sticky='ew')
-        logging.info("Created 'Flip Vertical' button.")
+        btn_flip_vertical.grid(row=0, column=1, padx=5, pady=5)
 
     def create_rotation_point_control(self):
         """
@@ -214,10 +228,10 @@ class ButtonsWindow:
         row_num = 9
         for name, filename in default_images.items():
             btn = tk.Button(
-                self.btn_frame, text=name, command=lambda n=name, f=filename: self.app.image_manager.load_default_image(n, f)
+                self.btn_frame, text=name, command=lambda n=name, f=filename: self.app.image_manager.toggle_image_visibility(n, f)
             )
             btn.grid(row=row_num, column=0, columnspan=2, pady=5, sticky='ew')
-            logging.info(f"Created '{name}' button to load '{filename}'.")
+            logging.info(f"Created '{name}' button to toggle '{filename}'.")
             row_num += 1
 
     def create_hide_show_image_window_button(self):
@@ -234,7 +248,7 @@ class ButtonsWindow:
         """
         Sets the active image in the dropdown menu.
         """
-        self.active_image_var.set(image_name)
+        self.active_image_var.set(image_name if image_name else "No Images Loaded")
 
     def update_active_image_menu(self):
         """
@@ -246,3 +260,10 @@ class ButtonsWindow:
             menu.add_command(label=image_name, command=lambda n=image_name: self.app.image_manager.change_active_image(n))
         if not self.app.image_manager.images:
             menu.add_command(label="No Images Loaded", command=lambda: None)
+        else:
+            # Ensure the active image is set if available
+            if self.app.image_manager.active_image_name and self.app.image_manager.active_image_name in self.app.image_manager.images:
+                self.active_image_var.set(self.app.image_manager.active_image_name)
+            else:
+                self.active_image_var.set("No Images Loaded")
+        logging.debug("Updated active image dropdown menu.")
